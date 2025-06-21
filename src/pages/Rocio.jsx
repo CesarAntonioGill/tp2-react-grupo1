@@ -1,4 +1,8 @@
 import "./Rocio.css";
+import perfiles from "../data/skills.json";
+import SkillBar from "../pages/SkillBar";
+
+const perfil = perfiles.find(p => p.nombre.toLowerCase() === "rocío");
 
 export default function Rocio() {
   return (
@@ -67,7 +71,7 @@ export default function Rocio() {
           </div>
         </div>
       </section>
-
+{/* 
       <section id="habilidades" class="section">
         <h2>habilidades y tecnologías</h2>
         <div class="habilidades-container">
@@ -170,7 +174,19 @@ export default function Rocio() {
             </ul>
           </div>
         </div>
+      </section> */}
+      <section id="habilidades" class="section">
+        <h2>habilidades y tecnologías</h2>
+        {perfil.habilidades.map((hab, i) => (
+          <SkillBar
+            key={i}
+            nombre={hab.nombre}
+            porcentaje={hab.porcentaje}
+            variant="rocio"
+          />
+        ))}
       </section>
+      
 
       <footer class="footer">
         <div class="social-links">

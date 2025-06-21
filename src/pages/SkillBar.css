@@ -1,0 +1,66 @@
+/* Estilos base para la skill bar */
+.skill-bar {
+  margin-bottom: 20px;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+.progress-container {
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Variante por defecto */
+.skill-bar--default .progress-bar {
+  background-color: #4285f4;
+}
+
+/* Variante Rocío */
+.skill-bar--rocio .skill-info {
+  color: #d36eacce;
+}
+
+.skill-bar--rocio .progress-container {
+  background-color: #613a52ce;
+}
+
+.skill-bar--rocio .progress-bar {
+  background-color: #d36eacce;
+}
+
+/* Variante Damián */
+.skill-bar--damian .progress-bar {
+  background-color: #3b5bdb;
+}
+
+/* Variante Cristian */
+.skill-bar--cristian .skill-info {
+    color: #dbd9dd;
+}
+
+.skill-bar--cristian .progress-bar {
+  background-color: #f7914d;
+}
+
+/* Variante Antonio */
+.skill-bar--antonio .progress-container {
+  background-color: #d6d6d6;
+}
+.skill-bar--antonio .progress-bar {
+  background-color: #4caf50;
+}

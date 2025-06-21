@@ -1,5 +1,9 @@
 import React from 'react';
 import './Skills.css';
+import perfiles from "../../data/skills.json";
+import SkillBar from "../../pages/SkillBar";
+
+const perfil = perfiles.find(p => p.nombre.toLowerCase() === "cristian");
 
 const skillsData = {
   dominated: ['HTML5', 'CSS3', 'JavaScript', 'Bases de Datos SQL'],
@@ -19,6 +23,14 @@ const Skills = () => {
               <li key={index}>{skill}</li>
             ))}
           </ul>
+          {perfil.habilidades.map((hab, i) => (
+              <SkillBar
+                key={i}
+                nombre={hab.nombre}
+                porcentaje={hab.porcentaje}
+                variant="cristian"
+              />
+            ))}
         </div>
         <div>
           <h3>Tecnologías por Aprender</h3>

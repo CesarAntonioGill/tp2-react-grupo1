@@ -1,0 +1,43 @@
+[    
+    {
+        "nombre": "Antonio",
+        "habilidades": [
+          { "nombre": "HTML5 y CSS3", "porcentaje": 90 },
+          { "nombre": "JavaScript (ES6+)", "porcentaje": 80 },
+          { "nombre": "React", "porcentaje": 90 },
+          { "nombre": "Node.js con Express", "porcentaje": 85 },
+          { "nombre": "Git y GitHub", "porcentaje": 95 },
+          { "nombre": "Apis REST", "porcentaje": 70 }
+        ]    
+    },
+    {
+        "nombre": "Cristian",
+        "habilidades": [
+          { "nombre": "HTML5", "porcentaje": 90 },
+          { "nombre": "JavaScript (ES6+)", "porcentaje": 80 },
+          { "nombre": "CSS3", "porcentaje": 90 },
+          { "nombre": "Bases de Datos SQL", "porcentaje": 85 }
+        ]    
+    },
+    {
+      "nombre": "Damian",
+      "habilidades": [
+          { "nombre": "JavaScript", "porcentaje": 80 },
+        { "nombre": "HTML5 y CSS3", "porcentaje": 90 },
+        { "nombre": "React", "porcentaje": 90 },
+        { "nombre": "Node.js", "porcentaje": 85 },
+        { "nombre": "SQL", "porcentaje": 95 }
+      ]
+    },
+    {
+      "nombre": "Rocío",
+      "habilidades": [
+        { "nombre": "Python", "porcentaje": 90 },
+        { "nombre": "SQL", "porcentaje": 80 },
+        { "nombre": "Scrapy", "porcentaje": 90 },
+        { "nombre": "Airflow", "porcentaje": 75 },
+        { "nombre": "Docker", "porcentaje": 70 }
+      ]    
+    }
+  ]
+  

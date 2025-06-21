@@ -179,6 +179,10 @@
   justify-content: center;
 }
 
+.rocio-body .habilidades {
+  margin: 0 5rem;
+}
+
 .rocio-body .icono {
   height: 2em;
   width: 2em;
