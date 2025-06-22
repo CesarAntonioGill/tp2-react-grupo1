@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Cristian/Header';
 import Navbar from '../components/Cristian/Navbar';
 import About from '../components/Cristian/About';
-import Projects from '../components/Cristian/Projects';
+import ProjectsCarousel from '../components/Cristian/ProjectsCarousel';
 import Skills from '../components/Cristian/Skills';
 import Contact from '../components/Cristian/Contact';
 import GamesCarousel from '../components/Cristian/GamesCarousel';
@@ -19,7 +19,7 @@ export default function Cristian() {
       <Navbar />
       <main>
         <About />
-        <Projects />
+        <ProjectsCarousel />
         <Skills />
         <Contact />
         <GamesCarousel />

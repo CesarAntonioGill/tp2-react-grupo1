@@ -1,0 +1,97 @@
+.swiper {
+  width: auto;
+  height: auto;
+}
+
+.cristianContainer.dark-theme .swiper {
+  background-color: #222222;
+  --swiper-theme-color: #e7e4e4;
+}
+
+.cristianContainer.dark-theme #Project-Carousel {
+  background-color: #222222;
+}
+
+.swiper-slide .title,
+.swiper-slide .subtitle,
+.swiper-slide .text {
+  color: #272626;
+}
+
+.cristianContainer.dark-theme .swiper-slide .title,
+.cristianContainer.dark-theme .swiper-slide .subtitle,
+.cristianContainer.dark-theme .swiper-slide .text {
+  color: #fff;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide img {
+  max-height: 500px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 800;
+  margin-left: 5%;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+  margin-left: 5%;
+  margin-bottom: 0.2em;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+  margin-left: 2%;
+  margin-bottom: 0.2em;
+}
+
+/* Media query para pantallas más grandes */
+@media (min-width: 768px) {
+
+  .swiper-slide .title,
+  .swiper-slide .subtitle,
+  .swiper-slide .text {
+    margin-left: 3%;
+    /* Aumenta el margen en pantallas más grandes */
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .swiper-slide .title,
+  .swiper-slide .subtitle,
+  .swiper-slide .text {
+    margin-left: 4%;
+    /* Aumenta el margen en pantallas más grandes */
+  }
+}
