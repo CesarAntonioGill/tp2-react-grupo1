@@ -1,5 +1,9 @@
 import './Damian.css';
 import { FaLinux, FaNodeJs, FaReact, FaGithub, FaDatabase, FaHtml5, FaCss3Alt, FaJsSquare } from 'react-icons/fa';
+import perfiles from "../data/skills.json";
+import SkillBar from "../pages/SkillBar";
+
+const perfil = perfiles.find(p => p.nombre.toLowerCase() === "damian");
 
 export default function Damian() {
   return (
@@ -19,6 +23,16 @@ export default function Damian() {
         <span title="CSS3" style={{color:'#1572b6'}}><FaCss3Alt size={38} /></span>
         <span title="SQL" style={{color:'#00618a'}}><FaDatabase size={38} /></span>                
       </div>
+      <section>
+        {perfil.habilidades.map((hab, i) => (
+            <SkillBar
+              key={i}
+              nombre={hab.nombre}
+              porcentaje={hab.porcentaje}
+              variant="damian"
+            />
+          ))}
+      </section>
       <h3>Proyectos</h3>
       <div className="damian-projects">
         <div className="damian-project-card">

@@ -15,6 +15,10 @@ import {
   SiMysql,
   SiBootstrap,
 } from "react-icons/si";
+import perfiles from "../data/skills.json";
+import SkillBar from "../pages/SkillBar";
+
+const perfil = perfiles.find(p => p.nombre.toLowerCase() === "antonio");
 
 export default function Antonio() {
   return (
@@ -123,6 +127,17 @@ export default function Antonio() {
             <span>Bootstrap</span>
           </div>
         </div>
+      </section>
+
+      <section>
+        {perfil.habilidades.map((hab, i) => (
+            <SkillBar
+              key={i}
+              nombre={hab.nombre}
+              porcentaje={hab.porcentaje}
+              variant="antonio"
+            />
+          ))}
       </section>
 
       <section className="antonio-section">
