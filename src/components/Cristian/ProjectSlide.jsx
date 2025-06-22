@@ -6,7 +6,11 @@ const ProjectSlide = ({ image, title, subtitle, text }) => {
       <div className='img-container'>
         <img src={image} alt={title} />
       </div>
-      <div className="title" data-swiper-parallax="-100">
+      <div
+        className="title" data-swiper-parallax="-100"
+        data-swiper-parallax-opacity="0.5"
+        data-swiper-parallax-scale="0.5"
+      >
         {title}
       </div>
       <div className="subtitle" data-swiper-parallax="-200">
@@ -18,12 +22,6 @@ const ProjectSlide = ({ image, title, subtitle, text }) => {
         data-swiper-parallax-duration="600"
       >
         <p>{text}</p>
-      </div>
-      <div data-swiper-parallax-opacity="0.5">
-        I will change opacity
-      </div>
-      <div data-swiper-parallax-scale="0.5">
-        I will change scale
       </div>
     </div>
   );
