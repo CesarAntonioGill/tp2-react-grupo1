@@ -16,6 +16,15 @@
   color: rgb(91, 59, 206);
 }
 
+.bitacora-body h4 {
+  color: rgb(91, 59, 206);
+}
+
+/* Forzar color violeta en h4 dentro de la bitácora */
+.bitacora-body section h4 {
+  color: rgb(91, 59, 206) !important;
+}
+
 .bitacora-body ul {
   list-style: none;
 }

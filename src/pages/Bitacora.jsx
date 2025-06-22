@@ -35,11 +35,22 @@ export default function Bitacora() {
           Al finalizar cada desarrollo, se integraron los aportes en el repositorio grupal y se realizaron pruebas generales antes de la entrega final.
         </p>
       </section>
+
+      {/* Sección de Control de Cambios (HEAD) */}
       <section>
         <h3>Control de Cambios</h3>
         <strong><p>22/6/2025</p></strong>
         <p>En la página de Cristian se reemplazó la sección estática de proyectos por una sección tipo carousel donde se muestran los proyectos.</p>
         <p>Para desarrollar esta sección se usó la librería Swiper.js que maneja las animaciones y controles del carousel. Su utilizó de esta librería entre otros el efecto parallax para la animación de los textos.</p>
+      </section>
+
+      {/* Sección de Actualización (Damian) */}
+      <section style={{ marginTop: '3rem' }}>
+        <h3>Actualización</h3>
+        <h4 style={{ color: '#2c3e50' }}>Damián Clausi: Datos JSON - Peliculas</h4>
+        <p>
+          Se realizaron mejoras en la sección de películas cargadas desde un JSON local. Ahora el componente principal <b>JsonData.jsx</b> permite buscar películas por título o director mediante un campo de texto y filtrar los resultados por género usando un menú desplegable ordenado alfabéticamente. Se crearon los componentes <b>Buscador.jsx</b>, <b>Filtro.jsx</b> y <b>PeliculasList.jsx</b> para dividir la lógica y la presentación. Además, se agregó la visualización del género de cada película. Todo el filtrado y la búsqueda se manejan con <b>useState</b> y <b>filter()</b> para una experiencia interactiva y clara.
+        </p>
       </section>
     </div>
   )
