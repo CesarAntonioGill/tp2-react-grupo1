@@ -78,26 +78,31 @@ const ProjectsCarousel = () => {
   ];
 
   return (
-    <section className="swiper" ref={swiperElRef}>
-      <div
-        className="parallax-bg"
-        data-swiper-parallax="-23%"
-      ></div>
-      <div className="swiper-wrapper">
-        {slides.map((slide, index) => (
-          <ProjectSlide
-            key={index}
-            image={slide.image}
-            title={slide.title}
-            subtitle={slide.subtitle}
-            text={slide.text}
-          />
-        ))}
+    <section id='Project-Carousel'>
+      <h2>Proyectos</h2>
+      <div className="swiper" ref={swiperElRef}>
+        <div
+          className="parallax-bg"
+          data-swiper-parallax="-23%"
+        ></div>
+        <div className="swiper-wrapper">
+          {slides.map((slide, index) => (
+            <ProjectSlide
+              key={index}
+              image={slide.image}
+              title={slide.title}
+              subtitle={slide.subtitle}
+              text={slide.text}
+            />
+          ))}
+        </div>
+        <div className="swiper-button-prev"></div>
+        <div className="swiper-button-next"></div>
+        <div className="swiper-pagination"></div>
       </div>
-      <div className="swiper-button-prev"></div>
-      <div className="swiper-button-next"></div>
-      <div className="swiper-pagination"></div>
+
     </section>
+
   );
 };
 

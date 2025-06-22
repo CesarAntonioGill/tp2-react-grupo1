@@ -8,6 +8,11 @@
   --swiper-theme-color: #e7e4e4;
 }
 
+.cristianContainer.dark-theme #Project-Carousel {
+  background-color: #222222;
+
+}
+
 
 .swiper-slide {
   display: flex;
