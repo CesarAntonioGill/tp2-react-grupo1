@@ -10,9 +10,19 @@
 
 .cristianContainer.dark-theme #Project-Carousel {
   background-color: #222222;
-
 }
 
+.swiper-slide .title,
+.swiper-slide .subtitle,
+.swiper-slide .text {
+  color: #272626;
+}
+
+.cristianContainer.dark-theme .swiper-slide .title,
+.cristianContainer.dark-theme .swiper-slide .subtitle,
+.cristianContainer.dark-theme .swiper-slide .text {
+  color: #fff;
+}
 
 .swiper-slide {
   display: flex;
