@@ -27,8 +27,15 @@ Se implementó una sección de habilidades con barras de progreso animadas que s
 
 ## 🌐 Enlaces
 
-- 🔗 GitHub: [URL del repositorio de TP2]
-- 🔗 Vercel: [URL de despliegue de TP2]
+### TP1
+
+- 🔗 [GitHub](https://github.com/damianclausi/tp1-react-grupo1)
+- 🔗 [Vercel](https://tp1-react-grupo1.vercel.app)
+
+### TP2
+
+- 🔗 [GitHub](https://github.com/CesarAntonioGill/tp2-react-grupo1)
+- 🔗 [Vercel](https://tp2-react-grupo1-teyq.vercel.app/)
 
 ---
 
@@ -39,7 +46,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
 1. **Clona el repositorio:**
 
    ```sh
-   git clone [URL del repositorio de TP2]
+   git clone https://github.com/CesarAntonioGill/tp2-react-grupo1
    ```
 
 2. **Accede a la carpeta del proyecto:**
