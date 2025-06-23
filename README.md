@@ -1,63 +1,35 @@
-# 💻 Proyecto React - Grupo 1
+# 💻 Trabajo Práctico Grupal 2
 
-Trabajo Práctico Grupal 1  
 Tecnicatura en Desarrollo de Software – IFTS N.º 29  
-Entrega: 26 de mayo
+Desarrollo de Sistemas Web Frontend  
+GRUPO 1 - COMISION D  
+Entrega: 23 de junio de 2025
 
----
+## 🌟 Implementaciones individuales
 
-## 📘 Descripción
+### 🔹 Antonio Gill – Paginación para la API Externa
 
-Este proyecto es una **Single Page Application (SPA)** desarrollada con **React**, en el marco de un trabajo práctico grupal.  
-La aplicación incluye navegación entre secciones, carga dinámica de datos desde archivo JSON y consumo de una API externa en tiempo real.  
-El desarrollo fue realizado de forma colaborativa, empleando herramientas modernas para control de versiones y despliegue.
+Se implementó la paginación para una API externa, utilizando **fetch()** para obtener los datos y botones para navegar entre páginas. El número de página se gestiona con **useState** y se muestra el estado de la paginación (por ejemplo, "Página 2 de 5"). Para esto, se utilizó la API de [The Movie Database](https://api.themoviedb.org), que soporta paginación y permite explorar diferentes resultados de manera dinámica.
 
----
+### 🔹 Cristian Descosido – Carrusel de Proyectos Destacados
 
-## 👥 Integrantes
+En la página de Cristian se reemplazó la sección estática de proyectos por una sección tipo carousel donde se muestran los proyectos. Para desarrollar esta sección se usó la librería Swiper.js que maneja las animaciones y controles del carousel. Se utilizó, entre otros, el efecto parallax para la animación de los textos.
 
-| Nombre completo           | Rol en el proyecto                     |
-|---------------------------|----------------------------------------|
-| Damián Andrés Clausi      | Desarrollo de interfaz y navegación    |
-| Antonio Gill              | Integración de API externa             |
-| Cristian Descosido        | Gestión de contenido y datos locales   |
-| Rocío Ailén Gómez         | Diseño visual y adaptabilidad responsive |
+### 🔹 Damian Clausi – Búsqueda y Filtrado en JSON Local
 
----
+Se realizaron mejoras en la sección de películas cargadas desde un JSON local. Ahora el componente principal **JsonData.jsx** permite buscar películas por título o director mediante un campo de texto y filtrar los resultados por género usando un menú desplegable ordenado alfabéticamente. Se crearon los componentes **Buscador.jsx**, **Filtro.jsx** y **PeliculasList.jsx** para dividir la lógica y la presentación. Además, se agregó la visualización del género de cada película. Todo el filtrado y la búsqueda se manejan con **useState** y **filter()** para una experiencia interactiva y clara.
 
-## 🧱 Contenidos del proyecto
+### 🔹 Rocio Gómez – Barras de Progreso de Habilidades
 
-- Barra lateral de navegación (Sidebar)
-- Página de presentación del grupo
-- Secciones individuales por integrante
-- Carga de datos desde archivo JSON (películas)
-- Consumo de API pública (precios de criptomonedas con CoinGecko)
-- Bitácora del trabajo grupal
-
----
-
-## 🛠️ Tecnologías utilizadas
-
-- React
-- Vite
-- React Router DOM
-- CoinGecko API
-- Git y GitHub
-- Vercel
+Se implementó una sección de habilidades con barras de progreso animadas que se visualizan en las páginas de todos los integrantes. Los datos de las habilidades se encuentran en un JSON local (**skills.json**) y se renderizan dinámicamente usando **map()**. Cada barra representa el nivel de conocimiento en una tecnología específica para cada miembro del grupo, y se visualiza mediante componentes reutilizables desarrollados por Rocio. El diseño y la animación de las barras se adaptan al estilo general de la SPA, asegurando una integración visual coherente y responsiva en las páginas **Antonio.jsx**, **Damian.jsx**, **Cristian.jsx** y **Rocio.jsx**.
 
 ---
 
 ## 🌐 Enlaces
 
-- 🔗 GitHub: [https://github.com/damianclausi/tp1-react-grupo1](https://github.com/damianclausi/tp1-react-grupo1)
-- 🔗 Vercel: [https://tp1-react-grupo1.vercel.app](https://tp1-react-grupo1.vercel.app)
+- 🔗 GitHub: [URL del repositorio de TP2]
+- 🔗 Vercel: [URL de despliegue de TP2]
 
----
-
-## 📌 Organización y metodología
-
-El trabajo fue desarrollado de manera grupal, utilizando herramientas como **Trello**, **Discord** y **GitHub** para la comunicación, seguimiento de tareas y control de versiones.  
-Cada integrante aportó en una sección específica del proyecto y se trabajó de forma colaborativa durante todo el proceso.
 ---
 
 ## 🚀 Instalación y ejecución local
@@ -65,34 +37,34 @@ Cada integrante aportó en una sección específica del proyecto y se trabajó d
 Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
 
 1. **Clona el repositorio:**
-   
-   ```powershell
-   git clone https://github.com/damianclausi/tp1-react-grupo1.git
+
+   ```sh
+   git clone [URL del repositorio de TP2]
    ```
 
 2. **Accede a la carpeta del proyecto:**
-   
-   ```powershell
-   cd tp1-react-grupo1
+
+   ```sh
+   cd tp2-react-grupo1
    ```
 
 3. **Instala las dependencias:**
-   
-   ```powershell
+
+   ```sh
    npm install
    ```
 
 4. **Inicia la aplicación en modo desarrollo:**
-   
-   ```powershell
+
+   ```sh
    npm run dev
    ```
 
 5. **Abre la aplicación en tu navegador:**
-   
+
    Normalmente se abrirá automáticamente en `http://localhost:5173/`. Si no, abre esa URL manualmente.
 
 ---
 
-> Proyecto entregado como parte del Trabajo Práctico 1  
+> Proyecto entregado como parte del Trabajo Práctico 2  
 > Grupo 1 – Tecnicatura en Desarrollo de Software – IFTS N.º 29
