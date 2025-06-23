@@ -52,25 +52,25 @@ const ProjectsCarousel = () => {
 
   const slides = [
     {
-      image: "/src/assets/ProjectPhoto1.png",
+      image: "/ProjectPhoto1.png",
       title: "Next.js Commerce",
       subtitle: "Tech Stack: Next.js y Tailwind.css",
       text: "Aplicación e-commerce de Next.js con App Router, de alto rendimiento y renderizado en el servidor.",
     },
     {
-      image: "/src/assets/ProjectPhoto2.png",
+      image: "/ProjectPhoto2.png",
       title: "Galería de Imágenes",
       subtitle: "Tech Stack: Next.js, Cloudinary y Tailwind.css",
       text: "Sitio de galería de imágenes.",
     },
     {
-      image: "/src/assets/ProjectPhoto3.png",
+      image: "/ProjectPhoto3.png",
       title: "Onelink",
       subtitle: "Tech Stack: Nuxt.js y Tailwind.css",
       text: "Link-in-bio SaaS construído con Nuxt donde la data se aloja en la URL - No requiere base de datos",
     },
     {
-      image: "/src/assets/ProjectPhoto4.png",
+      image: "/ProjectPhoto4.png",
       title: "qrGPT",
       subtitle: "Tech Stack: Next.js con AppRouter, Replicate(IA), Velcel Blob, Vercel KV, Shadcn UI, Tailwind.css",
       text: "QrGPT es una herramienta de inteligencia artificial que te permite generar hermosos códigos QR usando IA con un solo clic.",
